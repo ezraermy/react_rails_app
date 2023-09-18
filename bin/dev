@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Explicitly specify the path to the Ruby interpreter you want to use
+RUBY_PATH="/home/ezra/.rvm/rubies/ruby-3.2.2/bin/ruby"  # Replace with the actual path to Ruby 3.2.2
+
+if ! gem list foreman -i --silent; then
+  echo "Installing foreman..."
+  $RUBY_PATH -S gem install foreman
+fi
+
+# Default to port 3000 if not specified
+export PORT="${PORT:-3000}"
+
+exec $RUBY_PATH -S foreman start -f Procfile.dev "$@"
