@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+#greeting {
+  color: rgb(77, 77, 226);
+  text-align: center;
+  display: block;
+}
