@@ -4,7 +4,7 @@
 
 # 📗 Table of Contents
 
-- [Blog Hub](#tdd-project)
+- [React-Rails App](#tdd-project)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 TDD-Project ](#-tdd-project-)
   - [🛠 Built With ](#-built-with-)
