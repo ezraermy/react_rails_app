@@ -148,7 +148,6 @@ If you like this project leave a start for it.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- I would like to extend my sincere thanks to [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for generously sharing his remarkable design work with my project. 
 
 - I would like to thank Microverse for helping me in my journey to become a Fullstack developer 🌹
 
